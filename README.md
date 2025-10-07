@@ -5,3 +5,7 @@ https://youtu.be/ucd0NhFVyCA
 
 GITHUB LINK:
 https://github.com/IIEWFL/prog7314-part-2-eternal.git 
+
+PROBLEM:
+- i couldnt post a youtube video as it sensitive information so i compreesed a file with the video because if it was not zipped the file was to big.
+- you can tap the youtube link and it will show you why the video was removed my apologies for the inconvience.
