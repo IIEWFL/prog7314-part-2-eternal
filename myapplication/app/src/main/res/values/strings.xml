@@ -1,0 +1,48 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MyApplication</string>
+
+    <!-- Settings Labels -->
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Arrays for Settings -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>es</item>
+    </string-array>
+
+    <!-- Arrays for Search Filters -->
+    <string-array name="bedroom_options">
+        <item>Any</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4+</item>
+    </string-array>
+
+    <string-array name="bathroom_options">
+        <item>Any</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4+</item>
+    </string-array>
+
+    <string-array name="property_types">
+        <item>Any</item>
+        <item>House</item>
+        <item>Apartment</item>
+        <item>Townhouse</item>
+        <item>Flat</item>
+    </string-array>
+</resources>

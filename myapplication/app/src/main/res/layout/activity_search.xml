@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- 🏡 Page Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Properties"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:paddingBottom="12dp" />
+
+    <!-- 💰 Price Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Maximum Price"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvPriceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: R0"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5000000" />
+
+    <!-- 🛏 Bedroom Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Number of Bedrooms"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBedrooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/bedroom_options"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp" />
+
+    <!-- 🛁 Bathroom Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Number of Bathrooms"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBathrooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/bathroom_options"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp" />
+
+    <!-- 🏠 Property Type Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Property Type"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/property_types"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp" />
+
+    <!-- ⚙️ Buttons -->
+    <Button
+        android:id="@+id/btnApplyFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Filters"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Properties"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddProperty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Property"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <!-- 📋 Results RecyclerView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matching Properties"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/purple_700" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerProperties"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

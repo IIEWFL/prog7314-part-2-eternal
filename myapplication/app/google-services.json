@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "997408773715",
+    "project_id": "homesa-ff7af",
+    "storage_bucket": "homesa-ff7af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997408773715:android:74b34e13bfcfb5ae4fd8a6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997408773715-e5ajeqrfs26lh3p77kd67ddurvh9dffe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "27973d082d66734a51af214cc20ff49b9e6e5292"
+          }
+        },
+        {
+          "client_id": "997408773715-o9ritn7fbvhkq9usgeg3ectmlguaafoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC417PUh-TQDX8x-RBkQBVeyVW7FGjXK9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997408773715-o9ritn7fbvhkq9usgeg3ectmlguaafoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

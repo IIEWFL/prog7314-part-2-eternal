@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Language -->
+    <ListPreference
+        android:key="language"
+        android:title="@string/language"
+        android:defaultValue="en"
+        android:entries="@array/language_options"
+        android:entryValues="@array/language_values"
+        android:summary="%s" />
+
+    <!-- Notifications -->
+    <PreferenceCategory android:title="@string/notifications">
+        <CheckBoxPreference
+            android:key="notify_email"
+            android:title="Email"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="notify_sms"
+            android:title="SMS"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!-- Privacy & Security -->
+    <PreferenceCategory android:title="@string/privacy_security">
+        <CheckBoxPreference
+            android:key="privacy_data"
+            android:title="Data"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="privacy_location"
+            android:title="Location"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="privacy_account"
+            android:title="Account"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- Dark Mode -->
+    <SwitchPreferenceCompat
+        android:key="dark_mode"
+        android:title="@string/dark_mode"
+        android:defaultValue="false" />
+
+    <!-- Support -->
+    <Preference
+        android:key="help_support"
+        android:title="@string/help_support"
+        android:summary="Get help and support" />
+
+    <!-- Sign Out -->
+    <Preference
+        android:key="sign_out"
+        android:title="@string/sign_out"
+        android:summary="Log out of your account" />
+
+</PreferenceScreen>
